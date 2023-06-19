@@ -1,0 +1,25 @@
+{
+  "name": "redditlang",
+  "displayName": "Redditlang",
+  "description": "Support for the Redditlang language made by r/programmerhumor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "rh",
+      "aliases": ["Redditlang", "rh"],
+      "extensions": [".rh",".redditlang",".rl",".php++",".pp++",".phppp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "rh",
+      "scopeName": "source.rh",
+      "path": "./syntaxes/rh.tmLanguage.json"
+    }]
+  }
+}
