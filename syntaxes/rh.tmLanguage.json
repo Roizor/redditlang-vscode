@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.rh",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(freemeth|nm4u|weneed|bringme|pullout|repeat dat shid|si|sthu|call me on my cell phone|school|~snoRt|cooK)\\b"
 			}]
 		},
 		"strings": {
