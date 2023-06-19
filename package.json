@@ -13,7 +13,8 @@
     "languages": [{
       "id": "rh",
       "aliases": ["Redditlang", "rh"],
-      "extensions": [".rh",".redditlang",".rl",".php++",".pp++",".phppp"],
+      "icon": "redditlang.png",
+      "extensions": [".rh",".redditlang",".rl",".php++",".pp++",".phppp", ".pppp"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
