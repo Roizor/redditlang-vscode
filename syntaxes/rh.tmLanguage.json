@@ -16,13 +16,13 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.rh",
-				"match": "\\b(extuse|zzz|subred|->|Σ|is|wut|okbud|myguy|weneed|bringme|coitusinterruptus|pulloutn't|repeatdatshid|si|sthu|callmeonmycellphone|school|snoRt|cooK|damn)\\b"
+				"match": "\\b(call|okn'tbud|iphone6s|extuse|zzz|subred|->|Σ|is|wut|okbud|myguy|weneed|bringme|coitusinterruptus|pulloutn't|repeatdatshid|si|sthu|callmeonmycellphone|school|snoRt|cooK|damn)\\b"
 			}]
 		},
 		"strings": {
 			"name": "string.quoted.double.rh",
-			"begin": "\"",
-			"end": "\"",
+			"begin": "'",
+			"end": "'",
 			"patterns": [
 				{
 					"name": "constant.character.escape.rh",
