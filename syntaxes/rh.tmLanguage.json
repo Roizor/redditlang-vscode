@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.rh",
-				"match": "\\b(subred|->|Σ|is|wut|okbud|myguy|weneed|bringme|coitusinterruptus|pulloutn't|repeatdatshid|si|sthu|callmeonmycellphone|school|~snoRt|cooK|damn)\\b"
+				"match": "\\b(zzz|subred|->|Σ|is|wut|okbud|myguy|weneed|bringme|coitusinterruptus|pulloutn't|repeatdatshid|si|sthu|callmeonmycellphone|school|~snoRt|cooK|damn)\\b"
 			}]
 		},
 		"strings": {
