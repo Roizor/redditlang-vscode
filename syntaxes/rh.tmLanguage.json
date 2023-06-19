@@ -7,13 +7,16 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#mods"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.rh",
-				"match": "\\b(freemeth|nm4u|weneed|bringme|pullout|repeat dat shid|si|sthu|call me on my cell phone|school|~snoRt|cooK)\\b"
+				"match": "\\b(freemeth|nm4u|weneed|bringme|pullout|repeat dat shid|si|sthu|call me on my cell phone|school|~snoRt|cooK|damn)\\b"
 			}]
 		},
 		"strings": {
@@ -26,6 +29,12 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"mods": {
+			"patterns": [{
+				"name": "storage.modifier.rh",
+				"match": "\\b(fruit|string|number|bool|object|array)\\b"
+			}]
 		}
 	},
 	"scopeName": "source.rh"
